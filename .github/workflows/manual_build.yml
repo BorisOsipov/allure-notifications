@@ -77,14 +77,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release_id: ${{ steps.create_release.outputs.id }}
-
-      - name: Send notification via telegram/slack
-        uses: appleboy/telegram-action@master
-        with:
-          to: ${{ secrets.TELEGRAM_TO }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
-          args: |
-            *allure-notifications-${{env.version}} is now available for downloading by link* https://github.com/${{ github.repository }}/releases/latest/download/allure-notifications-${{env.version}}.jar
-            *See Changelog here*:
-            https://github.com/${{ github.repository }}/releases/latest/
-          format: markdown
