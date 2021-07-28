@@ -1,7 +1,7 @@
 {
   "phrases": {
     "results": "Результаты",
-    "environment": "Рабочее окружение",
+    "environment": "Окружение",
     "duration": "Продолжительность",
     "totalScenarios": "Всего сценариев",
     "totalPassed": "Всего успешных тестов",
@@ -11,6 +11,6 @@
     "totalSkipped": "Всего пропущенных тестов",
     "ofPassedTests": "прошедших тестов",
     "ofFailedTests": "упавших тестов",
-    "reportAvailableByLink": "Отчет доступен по ссылке"
+    "reportAvailableByLink": "Ссылка на отчет"
   }
 }
