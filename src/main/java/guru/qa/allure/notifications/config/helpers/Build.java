@@ -29,7 +29,7 @@ public class Build {
                 .orElseThrow(() ->
                         new ArgumentNotProvidedException("reportLink"));
 
-        return link + "allure";
+        return link;
     }
 
     public static String projectName() {
