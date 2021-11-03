@@ -1,7 +1,7 @@
 <#compress>
 *${results}*: *${env}*
     ${totalScenarios}: *${total}*
-    <#if passed != 0 > ${totalPassed}: *${passed}* <#if passedPercentage != 0 >  *(${passedPercentage} %)*</#if></#if>
+    <#if passed != 0 > ${totalPassed}: *${passed}* <#if passedPercentage != 0 >  *(${passedPercentage} %)*</#if></#if> <#if passedPercentage == 100 > :+1:</#if>
     <#if failed != 0 > ${totalFailed}: *${failed}* <#if failedPercentage != 0 >  *(${failedPercentage} %)*</#if></#if>
     <#if broken != 0 > ${totalBroken}: *${broken}* </#if>
     <#if unknown != 0 >${totalUnknown}: *${unknown}* </#if>

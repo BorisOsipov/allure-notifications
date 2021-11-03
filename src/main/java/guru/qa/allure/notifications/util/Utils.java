@@ -13,7 +13,7 @@ public class Utils {
     public static String convertDurationToTime(final Long duration) {
         LOG.info("Duration(ms): {}", duration);
         Date date = new Date(duration);
-        DateFormat formatter = new SimpleDateFormat("HH:mm:ss.SSS");
+        DateFormat formatter = new SimpleDateFormat("HH:mm:ss");
         formatter.setTimeZone(TimeZone.getTimeZone("UTC"));
         String time = formatter.format(date);
         LOG.info("Formatted time: {}", time);

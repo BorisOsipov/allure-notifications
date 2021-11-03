@@ -11,7 +11,7 @@ public class ChartView {
                 .setDefaultSeriesRenderStyle(Donut)
                 .setCircular(true)
                 .setSumVisible(true)
-                .setSumFontSize(30f)
+                .setSumFontSize(40f)
                 .setDonutThickness(.2);
 
         chart.getStyler()

@@ -1,6 +1,6 @@
 {
   "phrases": {
-    "results": "Результаты",
+    "results": "Ветка",
     "environment": "Окружение",
     "duration": "Продолжительность",
     "totalScenarios": "Всего сценариев",
@@ -9,8 +9,8 @@
     "totalBroken": "Всего сломанных тестов",
     "totalUnknown": "Всего неизвестных тестов",
     "totalSkipped": "Всего пропущенных тестов",
-    "ofPassedTests": "прошедших тестов",
-    "ofFailedTests": "упавших тестов",
-    "reportAvailableByLink": "Ссылка на отчет"
+    "ofPassedTests": "Прошедших тестов",
+    "ofFailedTests": "Упавших тестов",
+    "reportAvailableByLink": "Отчет"
   }
 }
